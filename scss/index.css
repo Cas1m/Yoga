@@ -4,7 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Martel:wght@200&family=Montserrat:wght@200;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Righteous");
 header {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   width: 100%;
   height: 120px;
   background-color: rgb(255, 255, 255);
@@ -48,52 +47,55 @@ header div #navbar .details-modal {
   display: flex;
   flex-direction: column;
 }
-header div #navbar .details-modal .details-modal-close {
-  align-items: center;
-  color: #ffffff;
-  display: flex;
-  height: 4.5em;
-  justify-content: center;
-  pointer-events: none;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 4.5em;
-}
-header div #navbar .details-modal .details-modal-close svg {
-  display: block;
-}
-header div #navbar .details-modal .details-modal-title {
-  color: #111827;
-  padding: 0% 21% 0% 0%;
-  pointer-events: all;
-  position: relative;
-  width: calc(100% - 4.5em);
-  display: flex;
-  justify-content: space-between;
-}
-header div #navbar .details-modal .details-modal-title h3 {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
-  color: #000000;
-  margin-bottom: 20px;
-}
 header div #navbar .details-modal .details-modal-content {
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid #e2e2e2;
   padding: 0.75em;
   pointer-events: all;
   overflow: auto;
   display: flex;
   justify-content: space-between;
 }
-header div #navbar .details-modal .details-modal-content .new-wideo {
-  width: 30%;
+header div #navbar .details-modal .details-modal-content .video {
+  position: relative;
+}
+header div #navbar .details-modal .details-modal-content .video h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+header div #navbar .details-modal .details-modal-content .video .video-img {
+  width: 100%;
+  height: auto;
+  margin-top: 25px;
+}
+header div #navbar .details-modal .details-modal-content .video .play-button {
+  position: absolute;
+  left: 8%;
+  top: 75%;
+}
+header div #navbar .details-modal .details-modal-content .video .tip-yoga {
+  position: absolute;
+  left: 30%;
+  top: 74%;
+}
+header div #navbar .details-modal .details-modal-content .video .vremya {
+  position: absolute;
+  left: 70%;
+  top: 74%;
 }
 header div #navbar .details-modal .details-modal-content ul {
   display: block;
+}
+header div #navbar .details-modal .details-modal-content ul h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
 }
 header div #navbar .details-modal .details-modal-content ul li {
   margin-top: 25px;
@@ -106,10 +108,10 @@ header div #navbar .details-modal .details-modal-content ul li {
 }
 header div #navbar .details-modal .details-modal-content ul li img {
   position: absolute;
-  top: 53%;
-  left: 26%;
+  top: 49.4%;
+  left: 29%;
 }
-header div #navbar .details-modal-overlay {
+header div .details-modal-overlay {
   transition: opacity 0.2s ease-out;
   pointer-events: none;
   background: rgba(15, 23, 42, 0.8);
@@ -120,20 +122,20 @@ header div #navbar .details-modal-overlay {
   left: 0;
   top: 0;
 }
-details[open] header div #navbar .details-modal-overlay {
+details[open] header div .details-modal-overlay {
   pointer-events: all;
   opacity: 0.5;
 }
-header div #navbar details summary {
+header div details summary {
   list-style: none;
 }
-header div #navbar details summary:focus {
+header div details summary:focus {
   outline: none;
 }
-header div #navbar details summary::-webkit-details-marker {
+header div details summary::-webkit-details-marker {
   display: none;
 }
-header div #navbar code {
+header div code {
   font-family: Monaco, monospace;
   line-height: 100%;
   background-color: #2d2d2c;
@@ -147,20 +149,20 @@ header div #navbar code {
   position: relative;
   top: -2px;
 }
-header div #navbar .container {
+header div .container {
   text-align: center;
   max-width: 40em;
   padding: 1em;
 }
-header div #navbar span {
+header div span {
   margin-right: 10%;
 }
-header div #navbar ul {
+header div ul {
   list-style: none;
   display: flex;
   align-items: center;
 }
-header div #navbar ul li a {
+header div ul li a {
   padding: 0.75rem;
   color: rgb(0, 0, 0);
   font-family: "Open sans";
