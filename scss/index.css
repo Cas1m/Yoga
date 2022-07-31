@@ -70,6 +70,8 @@ header div #navbar .details-modal .details-modal-content .video .video-img {
   width: 100%;
   height: auto;
   margin-top: 25px;
+  filter: brightness(60%);
+  border-radius: 10px;
 }
 header div #navbar .details-modal .details-modal-content .video .play-button {
   position: absolute;
@@ -182,6 +184,7 @@ footer .push {
   width: 100%;
   height: 6px;
   background: #E5E5E5;
+  margin: 0%;
 }
 footer .container {
   width: 100%;
@@ -253,6 +256,172 @@ footer .container .second button a {
   color: #FFFFFF;
 }
 
+@media (max-width: 1024px) {
+  footer {
+    width: 100%;
+    height: auto;
+    padding: 1px 100px;
+  }
+  footer .push {
+    display: block;
+    width: 100%;
+    height: 6px;
+    background: #E5E5E5;
+    margin: 0%;
+  }
+  footer .container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 1px;
+  }
+  footer .container .first {
+    width: 45%;
+    height: 120px;
+    margin-top: 20px;
+  }
+  footer .container .first a {
+    color: #000;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  footer .container .first .img {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+  }
+  footer .container .second {
+    width: 45%;
+    height: 120px;
+    margin-top: 20px;
+  }
+  footer .container .second h2 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  footer .container .second h4 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 27px;
+  }
+  footer .container .second .form-control {
+    font-family: sans-serif;
+    width: 160px;
+    height: 40px;
+    border: 1px solid #dfdfdf;
+    padding: 0px 15px;
+  }
+  footer .container .second button {
+    width: 160px;
+    height: 40px;
+    background-color: #282828;
+  }
+  footer .container .second button a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #FFFFFF;
+  }
+}
+@media (max-width: 768px) {
+  footer {
+    width: 100%;
+    height: auto;
+    padding: 1px 100px;
+  }
+  footer .push {
+    display: block;
+    width: 100%;
+    height: 6px;
+    background: #E5E5E5;
+    margin: 0%;
+  }
+  footer .container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 1px;
+  }
+  footer .container .first {
+    width: 48%;
+    height: 120px;
+    margin-top: 20px;
+  }
+  footer .container .first a {
+    color: #000;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  footer .container .first .img {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+  }
+  footer .container .second {
+    width: 48%;
+    height: auto;
+    margin-top: 20px;
+  }
+  footer .container .second h2 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  footer .container .second h4 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 27px;
+  }
+  footer .container .second .form-control {
+    font-family: sans-serif;
+    width: 130px;
+    height: 40px;
+    border: 1px solid #dfdfdf;
+    padding: 0px 15px;
+  }
+  footer .container .second button {
+    width: 130px;
+    height: 40px;
+    background-color: #282828;
+  }
+  footer .container .second button a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #FFFFFF;
+  }
+}
 @media (max-width: 480px) {
   footer {
     width: 100%;
@@ -293,7 +462,7 @@ footer .container .second button a {
   }
   footer .container .second {
     width: 100%;
-    height: 120px;
+    height: 150px;
     margin-top: 20px;
   }
   footer .container .second h2 {
@@ -639,6 +808,567 @@ button {
   height: 540px;
 }
 
+@media (max-width: 1024px) {
+  #FirstSection {
+    background-image: url("/assest/image/firsthead.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #FirstSection .container {
+    position: absolute;
+    left: 0%;
+    top: 14%;
+    right: 0;
+    bottom: 0;
+    width: 60%;
+  }
+  #FirstSection .container h2 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 45px;
+    color: #595959;
+  }
+  #FirstSection .container button {
+    width: 210px;
+    height: 50px;
+    background-color: #A04C97;
+    border-radius: 5px;
+  }
+  #FirstSection .container button a {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+  #SecondSection {
+    width: 100%;
+    height: auto;
+  }
+  #SecondSection .container {
+    padding: 70px 60px;
+  }
+  #SecondSection .container .text {
+    width: 100%;
+    height: auto;
+  }
+  #SecondSection .container .text h2 {
+    font-family: "open sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+  }
+  #SecondSection .descriptionIcons {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 40px;
+  }
+  #SecondSection .descriptionIcons div {
+    width: 40%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  #SecondSection .descriptionIcons div img {
+    margin-bottom: 0px;
+  }
+  #SecondSection .descriptionIcons div h4 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #000000;
+  }
+  #SecondSection .descriptionIcons div p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #787878;
+  }
+  #ThirdSection {
+    width: 100%;
+    height: auto;
+  }
+  #ThirdSection .container {
+    display: block;
+    justify-content: space-between;
+    padding: 0px 120px;
+  }
+  #ThirdSection .container .text {
+    padding: 12% 0% 3.5% 0%;
+    width: 80%;
+    height: auto;
+  }
+  #ThirdSection .container .text h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    color: #000000;
+  }
+  #ThirdSection .container .text p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #424242;
+  }
+  #ThirdSection .container .text button {
+    width: 200px;
+    height: 47px;
+    background: #595959;
+    border-radius: 3px;
+  }
+  #ThirdSection .container .text button a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+  #ThirdSection .container .img {
+    width: auto;
+    height: auto;
+  }
+  #ThirdSection .container .img img {
+    width: 80%;
+    height: 400px;
+  }
+  #FourthSection .container {
+    padding: 70px 60px 0px 60px;
+  }
+  #FourthSection .container .text {
+    width: 100%;
+    height: auto;
+  }
+  #FourthSection .container .text h2 {
+    font-family: "open sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+  }
+  #FourthSection .Container {
+    width: 100%;
+    height: auto;
+    padding: 20px 60px 0px 40px;
+  }
+  #FourthSection .Container p {
+    width: 90%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
+  }
+  #FourthSection .Container .swiper-container {
+    position: relative;
+  }
+  #FourthSection .Container .swiper-container .swiper {
+    width: 90%;
+    height: 100%;
+  }
+  #FourthSection .Container .swiper-container .swiper-slide {
+    height: 320px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #FourthSection .Container .swiper-container .swiper-slide div img {
+    border-radius: 5px;
+    width: 200px;
+    height: 220px;
+    margin-bottom: 8px;
+  }
+  #FourthSection .Container .swiper-container .swiper-slide div h4 {
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+  }
+  #FourthSection .Container .swiper-container .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #FiftySection {
+    width: 100%;
+    height: auto;
+  }
+  #FiftySection .container {
+    display: block;
+    justify-content: space-between;
+    padding: 50px 120px;
+  }
+  #FiftySection .container .text {
+    padding: 2% 0% 3.5% 0%;
+    width: 80%;
+    height: auto;
+  }
+  #FiftySection .container .text h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    color: #000000;
+  }
+  #FiftySection .container .text p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #424242;
+  }
+  #FiftySection .container .text button {
+    width: 200px;
+    height: 47px;
+    background: #595959;
+    border-radius: 3px;
+  }
+  #FiftySection .container .text button a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+  #FiftySection .container .img {
+    width: auto;
+    height: auto;
+  }
+  #FiftySection .container .img img {
+    width: 80%;
+    height: 400px;
+  }
+}
+@media (max-width: 768px) {
+  #FirstSection {
+    background-image: url("/assest/image/firsthead.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #FirstSection .container {
+    position: absolute;
+    left: 0%;
+    top: 8%;
+    right: 0;
+    bottom: 0;
+    width: 70%;
+  }
+  #FirstSection .container h2 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+    line-height: 35px;
+    color: #595959;
+  }
+  #FirstSection .container button {
+    width: 190px;
+    height: 40px;
+    background-color: #A04C97;
+    border-radius: 5px;
+  }
+  #FirstSection .container button a {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+  #SecondSection {
+    width: 100%;
+    height: auto;
+  }
+  #SecondSection .container {
+    padding: 70px 60px;
+  }
+  #SecondSection .container .text {
+    width: 100%;
+    height: auto;
+  }
+  #SecondSection .container .text h2 {
+    font-family: "open sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+  }
+  #SecondSection .descriptionIcons {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 40px;
+  }
+  #SecondSection .descriptionIcons div {
+    width: 40%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  #SecondSection .descriptionIcons div img {
+    margin-bottom: 0px;
+  }
+  #SecondSection .descriptionIcons div h4 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #000000;
+  }
+  #SecondSection .descriptionIcons div p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #787878;
+  }
+  #ThirdSection {
+    width: 100%;
+    height: auto;
+  }
+  #ThirdSection .container {
+    display: block;
+    justify-content: space-between;
+    padding: 0px 40px;
+  }
+  #ThirdSection .container .text {
+    padding: 12% 0% 3.5% 0%;
+    width: 100%;
+    height: auto;
+  }
+  #ThirdSection .container .text h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    color: #000000;
+  }
+  #ThirdSection .container .text p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #424242;
+  }
+  #ThirdSection .container .text button {
+    width: 190px;
+    height: 44px;
+    background: #595959;
+    border-radius: 3px;
+  }
+  #ThirdSection .container .text button a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+  #ThirdSection .container .img {
+    width: auto;
+    height: auto;
+  }
+  #ThirdSection .container .img img {
+    width: 100%;
+    height: 400px;
+  }
+  #FourthSection .container {
+    padding: 70px 60px 0px 60px;
+  }
+  #FourthSection .container .text {
+    width: 100%;
+    height: auto;
+  }
+  #FourthSection .container .text h2 {
+    font-family: "open sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+  }
+  #FourthSection .Container {
+    width: 100%;
+    height: auto;
+    padding: 20px 60px 0px 40px;
+  }
+  #FourthSection .Container p {
+    width: 90%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
+  }
+  #FourthSection .Container .swiper-container {
+    position: relative;
+  }
+  #FourthSection .Container .swiper-container .swiper {
+    width: 90%;
+    height: 100%;
+  }
+  #FourthSection .Container .swiper-container .swiper-slide {
+    height: 320px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #FourthSection .Container .swiper-container .swiper-slide div img {
+    border-radius: 5px;
+    width: 150px;
+    height: 220px;
+    margin-bottom: 8px;
+  }
+  #FourthSection .Container .swiper-container .swiper-slide div h4 {
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+  }
+  #FourthSection .Container .swiper-container .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #FiftySection {
+    width: 100%;
+    height: auto;
+  }
+  #FiftySection .container {
+    display: block;
+    justify-content: space-between;
+    padding: 70px 60px;
+  }
+  #FiftySection .container .text {
+    padding: 2.5% 0% 5% 0%;
+    width: 100%;
+    height: auto;
+  }
+  #FiftySection .container .text h2 {
+    width: 75%;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 15px;
+    color: #000000;
+  }
+  #FiftySection .container .text p {
+    width: 75%;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    color: #424242;
+  }
+  #FiftySection .container .text button {
+    width: 190px;
+    height: 48px;
+    background: #282828;
+    border-radius: 3px;
+    transform: 0.5s;
+  }
+  #FiftySection .container .text button a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+  #FiftySection .container .img {
+    width: auto;
+    height: auto;
+  }
+  #FiftySection .container .img img {
+    width: 100%;
+    height: 400px;
+  }
+}
 @media (max-width: 480px) {
   #FirstSection {
     background-image: url("/assest/image/firsthead.jpg");
@@ -685,7 +1415,7 @@ button {
     height: auto;
   }
   #SecondSection .container {
-    padding: 4% 4%;
+    padding: 10% 4%;
   }
   #SecondSection .container .text {
     width: 100%;
@@ -824,10 +1554,12 @@ button {
   #FourthSection .Container .swiper-container {
     position: relative;
   }
-  #FourthSection .Container .swiper-container .swiper-button-prev, #FourthSection .Container .swiper-container .swiper-rtl .swiper-button-next {
+  #FourthSection .Container .swiper-container .swiper-button-prev,
+#FourthSection .Container .swiper-container .swiper-rtl .swiper-button-next {
     left: -1% !important;
   }
-  #FourthSection .Container .swiper-container .swiper-button-next, #FourthSection .Container .swiper-container .swiper-rtl .swiper-button-prev {
+  #FourthSection .Container .swiper-container .swiper-button-next,
+#FourthSection .Container .swiper-container .swiper-rtl .swiper-button-prev {
     right: -1% !important;
   }
   #FourthSection .Container .swiper-container .swiper {

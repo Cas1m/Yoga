@@ -58,8 +58,6 @@
 
                 .video {
                    position: relative;
-
-
                    h2 {
                       font-family: 'Open Sans';
                       font-style: normal;
@@ -73,6 +71,8 @@
                       width: 100%;
                       height: auto;
                       margin-top: 25px;
+                      filter: brightness(60%);
+                      border-radius: 10px;
 
                    }
 
