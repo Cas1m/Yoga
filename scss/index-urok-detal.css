@@ -536,4 +536,2012 @@ button {
 
 .Container {
   padding: 50px 160px;
+}
+
+.push {
+  height: 5px;
+  width: 90%;
+  background-color: #eaeaea;
+  margin-top: 40px;
+  margin-left: 5.5%;
+  border-radius: 10px;
+}
+
+#detal-first {
+  width: 100%;
+  height: auto;
+}
+#detal-first .container {
+  width: 100%;
+  height: auto;
+  padding: 50px 210px;
+  align-items: flex-start;
+}
+#detal-first .container .text-boxes {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+#detal-first .container .text-boxes h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: #000000;
+}
+#detal-first .container .text-boxes div {
+  width: 145px;
+  height: auto;
+  padding: 3px 15.5px;
+  background: #FFB800;
+  border-radius: 27px;
+  margin-left: 20px;
+}
+#detal-first .container .text-boxes div span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+}
+#detal-first .container .video-text-boxes {
+  width: 100%;
+  height: auto;
+  display: block;
+  justify-content: space-between;
+}
+#detal-first .container .video-text-boxes iframe {
+  border-radius: 10px;
+  width: 100%;
+  height: 500px;
+  filter: brightness(80%);
+  margin-bottom: 20px;
+}
+#detal-first .container .video-text-boxes .icons {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #C4C4C4;
+}
+#detal-first .container .video-text-boxes .icons div img {
+  width: 12px;
+  height: 12px;
+}
+#detal-first .container .video-text-boxes .icons div span {
+  margin-left: 5px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+#detal-first .container .video-text-boxes .description {
+  width: 100%;
+  height: auto;
+  text-align: start;
+  border-bottom: 2px solid #C4C4C4;
+}
+#detal-first .container .video-text-boxes .description h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  margin-bottom: 15px;
+  color: #000000;
+}
+#detal-first .container .video-text-boxes .description p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+#detal-first .container .video-text-boxes .description div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+#detal-first .container .video-text-boxes .description div button {
+  background: #282828;
+  border-radius: 3px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  width: 190px;
+  height: 40px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+#swiper-second {
+  width: 100%;
+  height: auto;
+}
+#swiper-second .container {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 0px 0px;
+}
+#swiper-second .container h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: #000000;
+}
+#swiper-second .Container {
+  width: 100%;
+  height: auto;
+  padding: 44px 130px;
+}
+#swiper-second .Container .swiper-container {
+  position: relative;
+}
+#swiper-second .Container .swiper-container .swiper {
+  width: 80%;
+  height: 100%;
+}
+#swiper-second .Container .swiper-container .swiper-slide {
+  height: auto;
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#swiper-second .Container .swiper-container .swiper-slide div {
+  width: auto;
+  height: auto;
+  margin-bottom: 20%;
+  position: relative;
+}
+#swiper-second .Container .swiper-container .swiper-slide div div {
+  margin-bottom: 30px;
+  width: 100%;
+  height: 270px;
+}
+#swiper-second .Container .swiper-container .swiper-slide div div img {
+  width: 100%;
+  height: 270px;
+  filter: brightness(55%);
+  border-radius: 10px;
+}
+#swiper-second .Container .swiper-container .swiper-slide div div .fa-play {
+  display: flex;
+  font-size: 40px;
+  color: #FFFFFF;
+  position: absolute;
+  left: 44%;
+  top: 44%;
+  bottom: 0%;
+  right: 0%;
+}
+#swiper-second .Container .swiper-container .swiper-slide div div .title-box {
+  width: auto;
+  height: auto;
+  margin-top: 10px;
+  text-align: start;
+}
+#swiper-second .Container .swiper-container .swiper-slide div div .title-box h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 22px;
+  margin-bottom: 5px;
+  color: #000000;
+}
+#swiper-second .Container .swiper-container .swiper-slide div div .title-box h4 {
+  display: flex;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #525252;
+}
+#swiper-second .Container .swiper-container .swiper-slide div div .title-box h4 img {
+  width: 13px;
+  height: 14px;
+}
+#swiper-second .Container .swiper-container .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#swiper-second .container-two {
+  width: 100%;
+  height: auto;
+  padding: 44px 244px;
+  display: block;
+  justify-content: center;
+}
+#swiper-second .container-two .comment-box1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-bottom: 20px;
+}
+#swiper-second .container-two .comment-box1 img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+#swiper-second .container-two .comment-box1 form {
+  width: 100%;
+  height: 100%;
+}
+#swiper-second .container-two .comment-box1 form .input {
+  width: 97.9%;
+  height: 150px;
+  border-radius: 3px;
+  padding: 0px 0px 100px 10px;
+  margin-left: 20px;
+  border: 1px solid #A9A9A9;
+  color: #000000;
+  font-family: "Open Sans";
+}
+#swiper-second .container-two .comment-box1-button {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 50px;
+}
+#swiper-second .container-two .comment-box1-button button {
+  background: #282828;
+  border-radius: 3px;
+  width: 170px;
+  height: 45px;
+}
+#swiper-second .container-two .comment-box1-button button h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+#swiper-second .container-two .comment-box2-3-4 {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  height: 138px;
+  border-bottom: 2px solid #E8E8E8;
+  margin-bottom: 45px;
+}
+#swiper-second .container-two .comment-box2-3-4 img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+#swiper-second .container-two .comment-box2-3-4 .comment1 {
+  width: 100%;
+  height: auto;
+  margin-left: 20px;
+}
+#swiper-second .container-two .comment-box2-3-4 .comment1 h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+#swiper-second .container-two .comment-box2-3-4 .comment1 h3 span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.78;
+}
+#swiper-second .container-two .comment-box2-3-4 .comment1 p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  margin-bottom: 13px;
+}
+#swiper-second .container-two .comment-box2-3-4 .comment1 .reply-and-like {
+  width: 25%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+#swiper-second .container-two .comment-box2-3-4 .comment1 .reply-and-like .reply {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #000000;
+}
+#swiper-second .container-two .comment-box2-3-4 .comment1 .reply-and-like .like {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+}
+#swiper-second .container-two .comment-box2-3-4 .comment1 .reply-and-like img {
+  width: 16px;
+  height: 16px;
+}
+#swiper-second .container-two .comment-box2-3-4-4 {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  height: 138px;
+  margin-bottom: 30px;
+}
+#swiper-second .container-two .comment-box2-3-4-4 img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+#swiper-second .container-two .comment-box2-3-4-4 .comment1 {
+  width: 100%;
+  height: auto;
+  margin-left: 20px;
+}
+#swiper-second .container-two .comment-box2-3-4-4 .comment1 h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+#swiper-second .container-two .comment-box2-3-4-4 .comment1 h3 span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.78;
+}
+#swiper-second .container-two .comment-box2-3-4-4 .comment1 p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  margin-bottom: 13px;
+}
+#swiper-second .container-two .comment-box2-3-4-4 .comment1 .reply-and-like {
+  width: 25%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+#swiper-second .container-two .comment-box2-3-4-4 .comment1 .reply-and-like .reply {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #000000;
+}
+#swiper-second .container-two .comment-box2-3-4-4 .comment1 .reply-and-like .like {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+}
+#swiper-second .container-two .comment-box2-3-4-4 .comment1 .reply-and-like img {
+  width: 16px;
+  height: 16px;
+}
+#swiper-second .container-two .comment-box2-3-4-5 {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  height: 300px;
+}
+#swiper-second .container-two .comment-box2-3-4-5 img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+#swiper-second .container-two .comment-box2-3-4-5 .comment1 {
+  width: 84.5%;
+  height: auto;
+  margin-left: 20px;
+}
+#swiper-second .container-two .comment-box2-3-4-5 .comment1 h3 {
+  margin-bottom: 11px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #575757;
+}
+#swiper-second .container-two .comment-box2-3-4-5 .comment1 h3 span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #575757;
+  opacity: 0.78;
+}
+#swiper-second .container-two .comment-box2-3-4-5 .comment1 p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 10px;
+  color: #575757;
+}
+#swiper-second .container-two .comment-box2-3-4-5 .comment1 .reply-and-like {
+  width: 25%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+#swiper-second .container-two .comment-box2-3-4-5 .comment1 .reply-and-like .reply {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #575757;
+}
+#swiper-second .container-two .comment-box2-3-4-5 .comment1 .reply-and-like .like {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #575757;
+}
+#swiper-second .container-two .comment-box2-3-4-5 .comment1 .reply-and-like img {
+  width: 16px;
+  height: 16px;
+}
+
+@media (max-width: 1024px) {
+  .push {
+    height: 5px;
+    width: 90%;
+    background-color: #eaeaea;
+    margin-top: 40px;
+    margin-left: 5.5%;
+    border-radius: 10px;
+  }
+  #detal-first {
+    width: 100%;
+    height: auto;
+  }
+  #detal-first .container {
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    align-items: flex-start;
+  }
+  #detal-first .container .text-boxes {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  #detal-first .container .text-boxes h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+  }
+  #detal-first .container .text-boxes div {
+    width: 145px;
+    height: auto;
+    padding: 3px 15.5px;
+    background: #FFB800;
+    border-radius: 27px;
+    margin-left: 20px;
+  }
+  #detal-first .container .text-boxes div span {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+  }
+  #detal-first .container .video-text-boxes {
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: space-between;
+  }
+  #detal-first .container .video-text-boxes iframe {
+    border-radius: 10px;
+    width: 100%;
+    height: 500px;
+    filter: brightness(80%);
+    margin-bottom: 20px;
+  }
+  #detal-first .container .video-text-boxes .icons {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #C4C4C4;
+  }
+  #detal-first .container .video-text-boxes .icons div img {
+    width: 12px;
+    height: 12px;
+  }
+  #detal-first .container .video-text-boxes .icons div span {
+    margin-left: 5px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+  }
+  #detal-first .container .video-text-boxes .description {
+    width: 100%;
+    height: auto;
+    text-align: start;
+    border-bottom: 2px solid #C4C4C4;
+  }
+  #detal-first .container .video-text-boxes .description h3 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    margin-bottom: 15px;
+    color: #000000;
+  }
+  #detal-first .container .video-text-boxes .description p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+  #detal-first .container .video-text-boxes .description div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  #detal-first .container .video-text-boxes .description div button {
+    background: #282828;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    width: 190px;
+    height: 40px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+  }
+  #swiper-second {
+    width: 100%;
+    height: auto;
+  }
+  #swiper-second .container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0px 0px;
+  }
+  #swiper-second .container h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+  }
+  #swiper-second .Container {
+    width: 100%;
+    height: auto;
+    padding: 44px 20px;
+  }
+  #swiper-second .Container .swiper-container {
+    position: relative;
+  }
+  #swiper-second .Container .swiper-container .swiper {
+    width: 90%;
+    height: 100%;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide {
+    height: auto;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div {
+    width: auto;
+    height: auto;
+    margin-bottom: 20%;
+    position: relative;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div div {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 270px;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div div img {
+    width: 100%;
+    height: 270px;
+    filter: brightness(55%);
+    border-radius: 10px;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div div .fa-play {
+    display: flex;
+    font-size: 40px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 44%;
+    top: 44%;
+    bottom: 0%;
+    right: 0%;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div div .title-box {
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    text-align: start;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div div .title-box h3 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 5px;
+    color: #000000;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div div .title-box h4 {
+    display: flex;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #525252;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div div .title-box h4 img {
+    width: 13px;
+    height: 14px;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #swiper-second .container-two {
+    width: 100%;
+    height: auto;
+    padding: 44px 100px;
+    display: block;
+    justify-content: center;
+  }
+  #swiper-second .container-two .comment-box1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  #swiper-second .container-two .comment-box1 img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+  #swiper-second .container-two .comment-box1 form {
+    width: 100%;
+    height: 100%;
+  }
+  #swiper-second .container-two .comment-box1 form .input {
+    width: 97.9%;
+    height: 150px;
+    border-radius: 3px;
+    padding: 0px 0px 100px 10px;
+    margin-left: 20px;
+    border: 1px solid #A9A9A9;
+    color: #000000;
+    font-family: "Open Sans";
+  }
+  #swiper-second .container-two .comment-box1-button {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 50px;
+  }
+  #swiper-second .container-two .comment-box1-button button {
+    background: #282828;
+    border-radius: 3px;
+    width: 170px;
+    height: 45px;
+  }
+  #swiper-second .container-two .comment-box1-button button h3 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+  #swiper-second .container-two .comment-box2-3-4 {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: 140px;
+    border-bottom: 2px solid #E8E8E8;
+    margin-bottom: 45px;
+  }
+  #swiper-second .container-two .comment-box2-3-4 img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 {
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 h3 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 15px;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 h3 span {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.78;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 13px;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 .reply-and-like {
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 .reply-and-like .reply {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #000000;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 .reply-and-like .like {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 .reply-and-like img {
+    width: 16px;
+    height: 16px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: 138px;
+    margin-bottom: 30px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 {
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 h3 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 15px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 h3 span {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.78;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 13px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 .reply-and-like {
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 .reply-and-like .reply {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #000000;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 .reply-and-like .like {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 .reply-and-like img {
+    width: 16px;
+    height: 16px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 300px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 {
+    width: 84.5%;
+    height: auto;
+    margin-left: 20px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 h3 {
+    margin-bottom: 11px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #575757;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 h3 span {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #575757;
+    opacity: 0.78;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    color: #575757;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 .reply-and-like {
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 .reply-and-like .reply {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #575757;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 .reply-and-like .like {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #575757;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 .reply-and-like img {
+    width: 16px;
+    height: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .push {
+    height: 5px;
+    width: 90%;
+    background-color: #eaeaea;
+    margin-top: 40px;
+    margin-left: 5.5%;
+    border-radius: 10px;
+  }
+  #detal-first {
+    width: 100%;
+    height: auto;
+  }
+  #detal-first .container {
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    align-items: flex-start;
+  }
+  #detal-first .container .text-boxes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  #detal-first .container .text-boxes h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 44px;
+    color: #000000;
+  }
+  #detal-first .container .text-boxes div {
+    width: 145px;
+    height: auto;
+    padding: 3px 15.5px;
+    background: #FFB800;
+    border-radius: 27px;
+    margin-left: 20px;
+  }
+  #detal-first .container .text-boxes div span {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+  }
+  #detal-first .container .video-text-boxes {
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: space-between;
+  }
+  #detal-first .container .video-text-boxes iframe {
+    border-radius: 10px;
+    width: 100%;
+    height: 500px;
+    filter: brightness(80%);
+    margin-bottom: 20px;
+  }
+  #detal-first .container .video-text-boxes .icons {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #C4C4C4;
+  }
+  #detal-first .container .video-text-boxes .icons div img {
+    width: 9px;
+    height: 9px;
+  }
+  #detal-first .container .video-text-boxes .icons div span {
+    margin-left: 5px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #000000;
+  }
+  #detal-first .container .video-text-boxes .description {
+    width: 100%;
+    height: auto;
+    text-align: start;
+    border-bottom: 2px solid #C4C4C4;
+  }
+  #detal-first .container .video-text-boxes .description h3 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    color: #000000;
+  }
+  #detal-first .container .video-text-boxes .description p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  #detal-first .container .video-text-boxes .description div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  #detal-first .container .video-text-boxes .description div button {
+    background: #282828;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 150px;
+    height: 35px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+  }
+  #swiper-second {
+    width: 100%;
+    height: auto;
+  }
+  #swiper-second .container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0px 0px;
+  }
+  #swiper-second .container h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 40px;
+    color: #000000;
+  }
+  #swiper-second .Container {
+    width: 100%;
+    height: auto;
+    padding: 44px 0px;
+  }
+  #swiper-second .Container .swiper-container {
+    position: relative;
+  }
+  #swiper-second .Container .swiper-container .swiper {
+    width: 85%;
+    height: 100%;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide {
+    height: auto;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div {
+    width: auto;
+    height: auto;
+    margin-bottom: 20%;
+    position: relative;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div div {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 270px;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div div img {
+    width: 100%;
+    height: 250px;
+    filter: brightness(55%);
+    border-radius: 10px;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div div .fa-play {
+    display: flex;
+    font-size: 40px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 44%;
+    top: 44%;
+    bottom: 0%;
+    right: 0%;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div div .title-box {
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    text-align: start;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div div .title-box h3 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 14px;
+    margin-bottom: 5px;
+    color: #000000;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div div .title-box h4 {
+    display: flex;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #525252;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div div .title-box h4 img {
+    width: 13px;
+    height: 14px;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #swiper-second .container-two {
+    width: 100%;
+    height: auto;
+    padding: 44px 44px;
+    display: block;
+    justify-content: center;
+  }
+  #swiper-second .container-two .comment-box1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  #swiper-second .container-two .comment-box1 img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+  #swiper-second .container-two .comment-box1 form {
+    width: 100%;
+    height: 100%;
+  }
+  #swiper-second .container-two .comment-box1 form .input {
+    width: 97.9%;
+    height: 150px;
+    border-radius: 3px;
+    padding: 0px 0px 100px 10px;
+    margin-left: 20px;
+    border: 1px solid #A9A9A9;
+    color: #000000;
+    font-family: "Open Sans";
+  }
+  #swiper-second .container-two .comment-box1-button {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 50px;
+  }
+  #swiper-second .container-two .comment-box1-button button {
+    background: #282828;
+    border-radius: 3px;
+    width: 150px;
+    height: 40px;
+  }
+  #swiper-second .container-two .comment-box1-button button h3 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #FFFFFF;
+  }
+  #swiper-second .container-two .comment-box2-3-4 {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #E8E8E8;
+    margin-bottom: 45px;
+  }
+  #swiper-second .container-two .comment-box2-3-4 img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 {
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 h3 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 15px;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 h3 span {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.78;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 13px;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 .reply-and-like {
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 .reply-and-like .reply {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #000000;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 .reply-and-like .like {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 .reply-and-like img {
+    width: 16px;
+    height: 16px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: 140px;
+    margin-bottom: 30px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 {
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 h3 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 15px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 h3 span {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.78;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 13px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 .reply-and-like {
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 .reply-and-like .reply {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #000000;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 .reply-and-like .like {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 .reply-and-like img {
+    width: 16px;
+    height: 16px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 300px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 {
+    width: 84.5%;
+    height: auto;
+    margin-left: 20px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 h3 {
+    margin-bottom: 11px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #575757;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 h3 span {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #575757;
+    opacity: 0.78;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    color: #575757;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 .reply-and-like {
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 .reply-and-like .reply {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #575757;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 .reply-and-like .like {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #575757;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 .reply-and-like img {
+    width: 16px;
+    height: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .push {
+    height: 5px;
+    width: 90%;
+    background-color: #eaeaea;
+    margin-top: 40px;
+    margin-left: 5.5%;
+    border-radius: 10px;
+  }
+  #detal-first {
+    width: 100%;
+    height: auto;
+  }
+  #detal-first .container {
+    width: 100%;
+    height: auto;
+    padding: 25px 25px;
+    align-items: flex-start;
+  }
+  #detal-first .container .text-boxes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  #detal-first .container .text-boxes h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 19px;
+    color: #000000;
+  }
+  #detal-first .container .text-boxes div {
+    width: 120px;
+    height: auto;
+    padding: 3px 15.5px;
+    background: #FFB800;
+    border-radius: 27px;
+    margin-left: 10px;
+  }
+  #detal-first .container .text-boxes div span {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 14px;
+    color: #000000;
+  }
+  #detal-first .container .video-text-boxes {
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: space-between;
+  }
+  #detal-first .container .video-text-boxes iframe {
+    border-radius: 10px;
+    width: 100%;
+    height: 500px;
+    filter: brightness(80%);
+    margin-bottom: 20px;
+  }
+  #detal-first .container .video-text-boxes .icons {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #C4C4C4;
+  }
+  #detal-first .container .video-text-boxes .icons div img {
+    width: 7px;
+    height: 7px;
+  }
+  #detal-first .container .video-text-boxes .icons div span {
+    margin-left: 5px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 10px;
+    color: #000000;
+  }
+  #detal-first .container .video-text-boxes .description {
+    width: 100%;
+    height: auto;
+    text-align: start;
+    border-bottom: 2px solid #C4C4C4;
+  }
+  #detal-first .container .video-text-boxes .description h3 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    color: #000000;
+  }
+  #detal-first .container .video-text-boxes .description p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    margin-bottom: 0px;
+  }
+  #detal-first .container .video-text-boxes .description div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  #detal-first .container .video-text-boxes .description div button {
+    background: #282828;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    width: 130px;
+    height: 30px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+  }
+  #swiper-second {
+    width: 100%;
+    height: auto;
+  }
+  #swiper-second .container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0px 0px;
+  }
+  #swiper-second .container h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    color: #000000;
+  }
+  #swiper-second .Container {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+  }
+  #swiper-second .Container .swiper-container {
+    position: relative;
+  }
+  #swiper-second .Container .swiper-container .swiper-button-prev,
+#swiper-second .Container .swiper-container .swiper-rtl .swiper-button-next {
+    left: 1% !important;
+    top: 30% !important;
+  }
+  #swiper-second .Container .swiper-container .swiper-button-next,
+#swiper-second .Container .swiper-container .swiper-rtl .swiper-button-prev {
+    right: 1% !important;
+    top: 30% !important;
+  }
+  #swiper-second .Container .swiper-container .swiper {
+    width: 85%;
+    height: 100%;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide {
+    height: auto;
+    text-align: start;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div {
+    width: auto;
+    height: auto;
+    margin-bottom: 50px;
+    position: relative;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div div {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 270px;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div div img {
+    width: 130px;
+    height: 200px;
+    filter: brightness(55%);
+    border-radius: 10px;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div div .fa-play {
+    display: flex;
+    font-size: 30px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 44%;
+    top: 35%;
+    bottom: 0%;
+    right: 0%;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div div .title-box {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    text-align: start;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div div .title-box h3 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 12px;
+    margin-bottom: 5px;
+    color: #000000;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div div .title-box h4 {
+    display: flex;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 8px;
+    color: #525252;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide div div .title-box h4 img {
+    width: 11px;
+    height: 12px;
+  }
+  #swiper-second .Container .swiper-container .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #swiper-second .container-two {
+    width: 100%;
+    height: auto;
+    padding: 44px 44px;
+    display: block;
+    justify-content: center;
+  }
+  #swiper-second .container-two .comment-box1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  #swiper-second .container-two .comment-box1 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  #swiper-second .container-two .comment-box1 form {
+    width: 100%;
+    height: 100%;
+  }
+  #swiper-second .container-two .comment-box1 form .input {
+    width: 97.9%;
+    height: 100px;
+    border-radius: 3px;
+    padding: 0px 0px 70px 10px;
+    margin-left: 20px;
+    border: 1px solid #A9A9A9;
+    color: #000000;
+    font-family: "Open Sans";
+  }
+  #swiper-second .container-two .comment-box1-button {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 50px;
+  }
+  #swiper-second .container-two .comment-box1-button button {
+    background: #282828;
+    border-radius: 3px;
+    width: 130px;
+    height: 30px;
+  }
+  #swiper-second .container-two .comment-box1-button button h3 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+  #swiper-second .container-two .comment-box2-3-4 {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #E8E8E8;
+    margin-bottom: 60px;
+  }
+  #swiper-second .container-two .comment-box2-3-4 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 {
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 h3 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 15px;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 h3 span {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.78;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 15px;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 .reply-and-like {
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 .reply-and-like .reply {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #000000;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 .reply-and-like .like {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+  }
+  #swiper-second .container-two .comment-box2-3-4 .comment1 .reply-and-like img {
+    width: 14px;
+    height: 14px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 {
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 h3 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 15px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 h3 span {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    opacity: 0.78;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-bottom: 13px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 .reply-and-like {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 .reply-and-like .reply {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #000000;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 .reply-and-like .like {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+  }
+  #swiper-second .container-two .comment-box2-3-4-4 .comment1 .reply-and-like img {
+    width: 14px;
+    height: 14px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 300px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 {
+    width: 84.5%;
+    height: auto;
+    margin-left: 20px;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 h3 {
+    margin-bottom: 11px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    color: #575757;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 h3 span {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    color: #575757;
+    opacity: 0.78;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    color: #575757;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 .reply-and-like {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 .reply-and-like .reply {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #575757;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 .reply-and-like .like {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #575757;
+  }
+  #swiper-second .container-two .comment-box2-3-4-5 .comment1 .reply-and-like img {
+    width: 14px;
+    height: 14px;
+  }
+}
+.swiper {
+  position: initial !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 26px !important;
+  color: #000000;
 }/*# sourceMappingURL=index-urok-detal.css.map */
