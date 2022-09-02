@@ -1,0 +1,1723 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Martel:wght@200&family=Montserrat:wght@200;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Martel:wght@200&family=Montserrat:wght@200;700;900&family=Open+Sans:wght@300&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Martel:wght@200&family=Montserrat:wght@200;700;900&family=Open+Sans:wght@300&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Martel:wght@200&family=Montserrat:wght@200;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Righteous");
+header {
+  width: 100%;
+  height: 120px;
+  background-color: rgb(255, 255, 255);
+}
+header div {
+  padding: 25px 50px;
+}
+header div #navbar {
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.25rem;
+  height: 70px;
+}
+header div #navbar .button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+  display: flex;
+  font-weight: 500;
+  line-height: 3em;
+  padding: 0 1em;
+  font-family: sans-serif;
+}
+header div #navbar .details-modal {
+  background: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  left: 45%;
+  max-width: 90%;
+  pointer-events: none;
+  position: absolute;
+  top: 31%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: left;
+  max-height: 90vh;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+}
+header div #navbar .details-modal .details-modal-content {
+  border-top: 1px solid #e2e2e2;
+  padding: 0.75em;
+  pointer-events: all;
+  overflow: auto;
+  display: flex;
+  justify-content: space-between;
+}
+header div #navbar .details-modal .details-modal-content .video {
+  position: relative;
+}
+header div #navbar .details-modal .details-modal-content .video h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+header div #navbar .details-modal .details-modal-content .video .video-img {
+  width: 100%;
+  height: auto;
+  margin-top: 25px;
+  filter: brightness(60%);
+  border-radius: 10px;
+}
+header div #navbar .details-modal .details-modal-content .video .play-button {
+  position: absolute;
+  left: 8%;
+  top: 75%;
+}
+header div #navbar .details-modal .details-modal-content .video .tip-yoga {
+  position: absolute;
+  left: 30%;
+  top: 74%;
+}
+header div #navbar .details-modal .details-modal-content .video .vremya {
+  position: absolute;
+  left: 70%;
+  top: 74%;
+}
+header div #navbar .details-modal .details-modal-content ul {
+  display: block;
+}
+header div #navbar .details-modal .details-modal-content ul h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+header div #navbar .details-modal .details-modal-content ul li {
+  margin-top: 25px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+}
+header div #navbar .details-modal .details-modal-content ul li img {
+  position: absolute;
+  top: 49.4%;
+  left: 29%;
+}
+header div .details-modal-overlay {
+  transition: opacity 0.2s ease-out;
+  pointer-events: none;
+  background: rgba(15, 23, 42, 0.8);
+  position: fixed;
+  opacity: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+details[open] header div .details-modal-overlay {
+  pointer-events: all;
+  opacity: 0.5;
+}
+header div details summary {
+  list-style: none;
+}
+header div details summary:focus {
+  outline: none;
+}
+header div details summary::-webkit-details-marker {
+  display: none;
+}
+header div code {
+  font-family: Monaco, monospace;
+  line-height: 100%;
+  background-color: #2d2d2c;
+  padding: 0.1em 0.4em;
+  letter-spacing: -0.05em;
+  word-break: normal;
+  border-radius: 7px;
+  color: white;
+  font-weight: normal;
+  font-size: 1.75rem;
+  position: relative;
+  top: -2px;
+}
+header div .container {
+  text-align: center;
+  max-width: 40em;
+  padding: 1em;
+}
+header div span {
+  margin-right: 10%;
+}
+header div ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+header div ul li a {
+  padding: 0.75rem;
+  color: rgb(0, 0, 0);
+  font-family: "Open sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 1px 100px;
+}
+footer .push {
+  display: block;
+  width: 100%;
+  height: 6px;
+  background: #E5E5E5;
+  margin: 0%;
+}
+footer .container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1px 1px;
+}
+footer .container .first {
+  width: 20%;
+  height: 120px;
+  margin-top: 20px;
+}
+footer .container .first a {
+  color: #000;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+footer .container .first .img {
+  width: 110px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+}
+footer .container .second {
+  width: 24%;
+  height: 120px;
+  margin-top: 20px;
+}
+footer .container .second h2 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+footer .container .second h4 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 27px;
+}
+footer .container .second .form-control {
+  font-family: sans-serif;
+  width: 160px;
+  height: 40px;
+  border: 1px solid #dfdfdf;
+  padding: 0px 15px;
+}
+footer .container .second button {
+  width: 130px;
+  height: 40px;
+  background-color: #282828;
+}
+footer .container .second button:hover {
+  transition: 0.5s;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+footer .container .second button:hover a {
+  color: #000000;
+}
+footer .container .second button a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 1024px) {
+  footer {
+    width: 100%;
+    height: auto;
+    padding: 1px 100px;
+  }
+  footer .push {
+    display: block;
+    width: 100%;
+    height: 6px;
+    background: #E5E5E5;
+    margin: 0%;
+  }
+  footer .container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 1px;
+  }
+  footer .container .first {
+    width: 45%;
+    height: 120px;
+    margin-top: 20px;
+  }
+  footer .container .first a {
+    color: #000;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  footer .container .first .img {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+  }
+  footer .container .second {
+    width: 45%;
+    height: 120px;
+    margin-top: 20px;
+  }
+  footer .container .second h2 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  footer .container .second h4 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 27px;
+  }
+  footer .container .second .form-control {
+    font-family: sans-serif;
+    width: 160px;
+    height: 40px;
+    border: 1px solid #dfdfdf;
+    padding: 0px 15px;
+  }
+  footer .container .second button {
+    width: 160px;
+    height: 40px;
+    background-color: #282828;
+  }
+  footer .container .second button a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #FFFFFF;
+  }
+}
+@media (max-width: 768px) {
+  footer {
+    width: 100%;
+    height: auto;
+    padding: 1px 100px;
+  }
+  footer .push {
+    display: block;
+    width: 100%;
+    height: 6px;
+    background: #E5E5E5;
+    margin: 0%;
+  }
+  footer .container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 1px;
+  }
+  footer .container .first {
+    width: 48%;
+    height: 120px;
+    margin-top: 20px;
+  }
+  footer .container .first a {
+    color: #000;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  footer .container .first .img {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+  }
+  footer .container .second {
+    width: 48%;
+    height: auto;
+    margin-top: 20px;
+  }
+  footer .container .second h2 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  footer .container .second h4 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 27px;
+  }
+  footer .container .second .form-control {
+    font-family: sans-serif;
+    width: 130px;
+    height: 40px;
+    border: 1px solid #dfdfdf;
+    padding: 0px 15px;
+  }
+  footer .container .second button {
+    width: 130px;
+    height: 40px;
+    background-color: #282828;
+  }
+  footer .container .second button a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #FFFFFF;
+  }
+}
+@media (max-width: 480px) {
+  footer {
+    width: 100%;
+    height: auto;
+    padding: 0px 40px;
+  }
+  footer .push {
+    display: block;
+    width: 100%;
+    height: 6px;
+    background: #E5E5E5;
+  }
+  footer .container {
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: space-around;
+    padding: 1px 1px;
+  }
+  footer .container .first {
+    width: 100%;
+    height: 120px;
+    margin-top: 20px;
+  }
+  footer .container .first a {
+    color: #000;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  footer .container .first .img {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+  }
+  footer .container .second {
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+  }
+  footer .container .second h2 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  footer .container .second h4 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 27px;
+  }
+  footer .container .second .form-control {
+    font-family: sans-serif;
+    width: 190px;
+    height: 40px;
+    border: 1px solid #dfdfdf;
+    padding: 0px 15px;
+  }
+  footer .container .second button {
+    width: 190px;
+    height: 40px;
+    background-color: #282828;
+  }
+  footer .container .second button a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #FFFFFF;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  padding: 120px 100px;
+}
+
+.Container {
+  padding: 50px 160px;
+}
+
+#first-main {
+  background-image: url("/assest/image/programfirstbg.jpg");
+  background-color: #ffffff;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#first-main .first-class {
+  width: 100%;
+  height: 100%;
+}
+#first-main .first-class .swiper {
+  height: 100%;
+}
+#first-main .first-class .swiper .swiper-slide {
+  text-align: start;
+  font-size: 18px;
+  background: rgb(255, 255, 255);
+  background: scroll;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+#first-main .first-class .swiper .swiper-slide div {
+  position: absolute;
+  top: 33%;
+  left: 5%;
+  width: 32%;
+  height: auto;
+}
+#first-main .first-class .swiper .swiper-slide div h2 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 101.18%;
+  color: #FFFFFF;
+  margin-bottom: 28px;
+}
+#first-main .first-class .swiper .swiper-slide div p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 101.18%;
+  color: #FFFFFF;
+  opacity: 0.56;
+  margin-bottom: 28px;
+}
+#first-main .first-class .swiper .swiper-slide div button {
+  background: #FFFFFF;
+  border-radius: 3px;
+  width: 155px;
+  height: 45px;
+  transition: 0.5s;
+}
+#first-main .first-class .swiper .swiper-slide div button:hover {
+  transform: 0.5s;
+  background-color: #000106;
+  border: 1px solid #ffffff;
+}
+#first-main .first-class .swiper .swiper-slide div button:hover a {
+  color: #FFFFFF;
+}
+#first-main .first-class .swiper .swiper-slide div button a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+#first-main .first-class .swiper .swiper-pagination {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  left: 4.5%;
+  top: 65%;
+}
+
+#lessons {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 65px;
+  margin-bottom: 15%;
+}
+#lessons .container {
+  width: 18.5%;
+  height: auto;
+  padding: 10px 10px;
+}
+#lessons .container h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  margin-bottom: 30px;
+  color: #000000;
+}
+#lessons .container select {
+  display: block;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+#lessons .container .teachers {
+  width: 100%;
+  height: auto;
+}
+#lessons .container .teachers form {
+  margin-bottom: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 123.68%;
+  color: #000000;
+}
+#lessons .container .teachers form input[type=checkbox] {
+  accent-color: rgb(0, 0, 0);
+}
+#lessons .container .range-slider .min {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+#lessons .container .range-slider .range-input {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+#lessons .container .range-slider .range-input input {
+  -webkit-appearance: none;
+  width: 170px;
+  height: 2px;
+  background: #b1b1b1;
+  border: none;
+  outline: none;
+}
+#lessons .container .range-slider .range-input input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 7px;
+  height: 25px;
+  background: #000;
+}
+#lessons .container .range-slider .range-input .value {
+  font-family: "Open sans";
+  color: #000;
+  text-align: center;
+  font-weight: 600;
+  line-height: 40px;
+  height: 40px;
+  overflow: hidden;
+  margin-left: 10px;
+}
+#lessons .container .range-slider .range-input .value div {
+  transition: all 300ms ease-in-out;
+}
+#lessons .container .range-slider .free-lesson {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+#lessons .container .range-slider input[type=checkbox] {
+  accent-color: rgb(0, 0, 0);
+}
+#lessons .container-wideo {
+  width: 80%;
+  height: auto;
+}
+#lessons .container-wideo .Container {
+  width: 100%;
+  height: auto;
+  display: block;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  border-left: 2px solid #eaeaea;
+}
+#lessons .container-wideo .Container .head-text {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  align-items: baseline;
+  padding: 10px 0px 30px 0px;
+}
+#lessons .container-wideo .Container .head-text h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 37px;
+  color: #000000;
+}
+#lessons .container-wideo .Container .head-text a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #000000;
+}
+#lessons .container-wideo .Container .container {
+  padding: 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10%;
+}
+#lessons .container-wideo .Container .container div {
+  width: 24%;
+  height: auto;
+  border-radius: 10px;
+  position: relative;
+}
+#lessons .container-wideo .Container .container div div {
+  margin-bottom: 30px;
+  width: 100%;
+  height: 230px;
+}
+#lessons .container-wideo .Container .container div div img {
+  width: 100%;
+  height: 230px;
+  filter: brightness(55%);
+  border-radius: 10px;
+}
+#lessons .container-wideo .Container .container div div .fa-solid {
+  display: flex;
+  font-size: 37px;
+  color: #ffffff;
+  position: absolute;
+  left: 42%;
+  top: 42%;
+  bottom: 0%;
+  right: 0%;
+}
+#lessons .container-wideo .Container .container div div .title-box {
+  width: auto;
+  height: auto;
+  margin-top: 13px;
+}
+#lessons .container-wideo .Container .container div div .title-box h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 22px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+#lessons .container-wideo .Container .container div div .title-box span {
+  display: flex;
+}
+#lessons .container-wideo .Container .container div div .title-box span img {
+  width: 12px;
+  height: 15px;
+}
+#lessons .container-wideo .Container .container div div .title-box span h6 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 8px;
+  line-height: 19px;
+  color: #000000;
+}
+
+@media (max-width: 1024px) {
+  #first-main {
+    background-image: url("/assest/image/programfirstbg.jpg");
+    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  #first-main .first-class {
+    width: 100%;
+    height: 100%;
+  }
+  #first-main .first-class .swiper {
+    height: 100%;
+  }
+  #first-main .first-class .swiper .swiper-slide {
+    text-align: start;
+    font-size: 18px;
+    background: rgb(255, 255, 255);
+    background: scroll;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  #first-main .first-class .swiper .swiper-slide div {
+    position: absolute;
+    top: 33%;
+    left: 5%;
+    width: 44%;
+    height: auto;
+  }
+  #first-main .first-class .swiper .swiper-slide div h2 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 101.18%;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+  }
+  #first-main .first-class .swiper .swiper-slide div p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 101.18%;
+    color: #FFFFFF;
+    opacity: 0.56;
+    margin-bottom: 28px;
+  }
+  #first-main .first-class .swiper .swiper-slide div button {
+    background: #FFFFFF;
+    border-radius: 3px;
+    width: 155px;
+    height: 45px;
+    transition: 0.5s;
+  }
+  #first-main .first-class .swiper .swiper-slide div button:hover {
+    transform: 0.5s;
+    background-color: #000106;
+    border: 1px solid #ffffff;
+  }
+  #first-main .first-class .swiper .swiper-slide div button:hover a {
+    color: #FFFFFF;
+  }
+  #first-main .first-class .swiper .swiper-slide div button a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+  }
+  #first-main .first-class .swiper .swiper-pagination {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 4.5%;
+    top: 90%;
+  }
+  #lessons {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px;
+    margin-bottom: 15%;
+  }
+  #lessons .container {
+    width: 30%;
+    height: auto;
+    padding: 10px 10px;
+  }
+  #lessons .container h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 30px;
+    color: #000000;
+  }
+  #lessons .container select {
+    display: block;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  #lessons .container .teachers {
+    width: 100%;
+    height: auto;
+  }
+  #lessons .container .teachers form {
+    margin-bottom: 10px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 123.68%;
+    color: #000000;
+  }
+  #lessons .container .teachers form input[type=checkbox] {
+    accent-color: rgb(0, 0, 0);
+  }
+  #lessons .container .range-slider .min {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+  }
+  #lessons .container .range-slider .range-input {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  #lessons .container .range-slider .range-input input {
+    -webkit-appearance: none;
+    width: 170px;
+    height: 2px;
+    background: #b1b1b1;
+    border: none;
+    outline: none;
+  }
+  #lessons .container .range-slider .range-input input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 7px;
+    height: 25px;
+    background: #000;
+  }
+  #lessons .container .range-slider .range-input .value {
+    font-family: "Open sans";
+    color: #000;
+    text-align: center;
+    font-weight: 600;
+    line-height: 40px;
+    height: 40px;
+    overflow: hidden;
+    margin-left: 10px;
+  }
+  #lessons .container .range-slider .range-input .value div {
+    transition: all 300ms ease-in-out;
+  }
+  #lessons .container .range-slider .free-lesson {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+  }
+  #lessons .container .range-slider input[type=checkbox] {
+    accent-color: rgb(0, 0, 0);
+  }
+  #lessons .container-wideo {
+    width: 80%;
+    height: auto;
+  }
+  #lessons .container-wideo .Container {
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    border-left: 2px solid #eaeaea;
+  }
+  #lessons .container-wideo .Container .head-text {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    align-items: baseline;
+    padding: 10px 0px 30px 0px;
+  }
+  #lessons .container-wideo .Container .head-text h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37px;
+    color: #000000;
+  }
+  #lessons .container-wideo .Container .head-text a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #000000;
+  }
+  #lessons .container-wideo .Container .container {
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10%;
+  }
+  #lessons .container-wideo .Container .container div {
+    width: 23%;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
+  }
+  #lessons .container-wideo .Container .container div div {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 190px;
+  }
+  #lessons .container-wideo .Container .container div div img {
+    width: 100%;
+    height: 180px;
+    filter: brightness(55%);
+    border-radius: 10px;
+  }
+  #lessons .container-wideo .Container .container div div .fa-solid {
+    display: flex;
+    font-size: 37px;
+    color: #ffffff;
+    position: absolute;
+    left: 38%;
+    top: 40%;
+    bottom: 0%;
+    right: 0%;
+  }
+  #lessons .container-wideo .Container .container div div .title-box {
+    width: auto;
+    height: auto;
+    margin-top: 13px;
+  }
+  #lessons .container-wideo .Container .container div div .title-box h3 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  #lessons .container-wideo .Container .container div div .title-box span {
+    display: flex;
+  }
+  #lessons .container-wideo .Container .container div div .title-box span img {
+    width: 11px;
+    height: 14px;
+  }
+  #lessons .container-wideo .Container .container div div .title-box span h6 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 8px;
+    line-height: 19px;
+    color: #000000;
+  }
+}
+@media (max-width: 768px) {
+  #first-main {
+    background-image: url("/assest/image/programfirstbg.jpg");
+    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  #first-main .first-class {
+    width: 100%;
+    height: 100%;
+  }
+  #first-main .first-class .swiper {
+    height: 100%;
+  }
+  #first-main .first-class .swiper .swiper-slide {
+    text-align: start;
+    font-size: 18px;
+    background: rgb(255, 255, 255);
+    background: scroll;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  #first-main .first-class .swiper .swiper-slide div {
+    position: absolute;
+    top: 28%;
+    left: 5%;
+    width: 44%;
+    height: auto;
+  }
+  #first-main .first-class .swiper .swiper-slide div h2 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 101.18%;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+  }
+  #first-main .first-class .swiper .swiper-slide div p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 101.18%;
+    color: #FFFFFF;
+    opacity: 0.56;
+    margin-bottom: 28px;
+  }
+  #first-main .first-class .swiper .swiper-slide div button {
+    background: #FFFFFF;
+    border-radius: 3px;
+    width: 155px;
+    height: 45px;
+    transition: 0.5s;
+  }
+  #first-main .first-class .swiper .swiper-slide div button:hover {
+    transform: 0.5s;
+    background-color: #000106;
+    border: 1px solid #ffffff;
+  }
+  #first-main .first-class .swiper .swiper-slide div button:hover a {
+    color: #FFFFFF;
+  }
+  #first-main .first-class .swiper .swiper-slide div button a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+  }
+  #first-main .first-class .swiper .swiper-pagination {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 4.5%;
+    top: 90%;
+  }
+  #lessons {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+    margin-bottom: 15%;
+  }
+  #lessons .container {
+    width: 35%;
+    height: auto;
+    padding: 0px 0px;
+  }
+  #lessons .container h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+    margin-bottom: 30px;
+    color: #000000;
+  }
+  #lessons .container select {
+    display: block;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  #lessons .container .teachers {
+    width: 100%;
+    height: auto;
+  }
+  #lessons .container .teachers form {
+    margin-bottom: 10px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 123.68%;
+    color: #000000;
+  }
+  #lessons .container .teachers form input[type=checkbox] {
+    accent-color: rgb(0, 0, 0);
+  }
+  #lessons .container .range-slider .min {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+  }
+  #lessons .container .range-slider .range-input {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  #lessons .container .range-slider .range-input input {
+    -webkit-appearance: none;
+    width: 145px;
+    height: 2px;
+    background: #b1b1b1;
+    border: none;
+    outline: none;
+  }
+  #lessons .container .range-slider .range-input input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 7px;
+    height: 25px;
+    background: #000;
+  }
+  #lessons .container .range-slider .range-input .value {
+    font-family: "Open sans";
+    color: #000;
+    text-align: center;
+    font-weight: 600;
+    line-height: 40px;
+    height: 40px;
+    overflow: hidden;
+    margin-left: 10px;
+  }
+  #lessons .container .range-slider .range-input .value div {
+    transition: all 300ms ease-in-out;
+  }
+  #lessons .container .range-slider .free-lesson {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+  }
+  #lessons .container .range-slider input[type=checkbox] {
+    accent-color: rgb(0, 0, 0);
+  }
+  #lessons .container-wideo {
+    width: 80%;
+    height: auto;
+  }
+  #lessons .container-wideo .Container {
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px 10px;
+    border-left: 2px solid #eaeaea;
+  }
+  #lessons .container-wideo .Container .head-text {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    align-items: baseline;
+    padding: 0px 0px 30px 0px;
+  }
+  #lessons .container-wideo .Container .head-text h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+  }
+  #lessons .container-wideo .Container .head-text a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #000000;
+  }
+  #lessons .container-wideo .Container .container {
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-bottom: 4%;
+  }
+  #lessons .container-wideo .Container .container div {
+    width: 46.5%;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
+  }
+  #lessons .container-wideo .Container .container div div {
+    margin-bottom: 50px;
+    width: 100%;
+    height: 280px;
+  }
+  #lessons .container-wideo .Container .container div div img {
+    width: 100%;
+    height: 200px;
+    filter: brightness(55%);
+    border-radius: 10px;
+  }
+  #lessons .container-wideo .Container .container div div .fa-solid {
+    display: flex;
+    font-size: 37px;
+    color: #ffffff;
+    position: absolute;
+    left: 40%;
+    top: 32%;
+    bottom: 0%;
+    right: 0%;
+  }
+  #lessons .container-wideo .Container .container div div .title-box {
+    width: auto;
+    height: auto;
+    margin-top: 13px;
+  }
+  #lessons .container-wideo .Container .container div div .title-box h3 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  #lessons .container-wideo .Container .container div div .title-box span {
+    display: flex;
+  }
+  #lessons .container-wideo .Container .container div div .title-box span img {
+    width: 12px;
+    height: 16px;
+  }
+  #lessons .container-wideo .Container .container div div .title-box span h6 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    margin-left: 8px;
+    line-height: 19px;
+    color: #000000;
+  }
+}
+@media (max-width: 480px) {
+  #first-main {
+    background-image: url("/assest/image/programfirstbg.jpg");
+    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  #first-main .first-class {
+    width: 100%;
+    height: 100%;
+  }
+  #first-main .first-class .swiper {
+    height: 100%;
+  }
+  #first-main .first-class .swiper .swiper-slide {
+    text-align: start;
+    font-size: 18px;
+    background: rgb(255, 255, 255);
+    background: scroll;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  #first-main .first-class .swiper .swiper-slide div {
+    position: absolute;
+    top: 28%;
+    left: 5%;
+    width: 60%;
+    height: auto;
+  }
+  #first-main .first-class .swiper .swiper-slide div h2 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 101.18%;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+  }
+  #first-main .first-class .swiper .swiper-slide div p {
+    width: 70%;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 101.18%;
+    color: #FFFFFF;
+    opacity: 0.56;
+    margin-bottom: 28px;
+  }
+  #first-main .first-class .swiper .swiper-slide div button {
+    background: #FFFFFF;
+    border-radius: 3px;
+    width: 145px;
+    height: 40px;
+    transition: 0.5s;
+  }
+  #first-main .first-class .swiper .swiper-slide div button:hover {
+    transform: 0.5s;
+    background-color: #000106;
+    border: 1px solid #ffffff;
+  }
+  #first-main .first-class .swiper .swiper-slide div button:hover a {
+    color: #FFFFFF;
+  }
+  #first-main .first-class .swiper .swiper-slide div button a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+  }
+  #first-main .first-class .swiper .swiper-pagination {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 4.5%;
+    top: 90%;
+  }
+  #lessons {
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: space-around;
+    padding: 20px 20px;
+    margin-bottom: 10%;
+  }
+  #lessons .container {
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+  }
+  #lessons .container h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 30px;
+    color: #000000;
+  }
+  #lessons .container select {
+    display: block;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 25px;
+    color: #000000;
+  }
+  #lessons .container .teachers {
+    width: 100%;
+    height: auto;
+  }
+  #lessons .container .teachers form {
+    margin-bottom: 15px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 123.68%;
+    color: #000000;
+  }
+  #lessons .container .teachers form input[type=checkbox] {
+    accent-color: rgb(0, 0, 0);
+  }
+  #lessons .container .range-slider .min {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+  }
+  #lessons .container .range-slider .range-input {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  #lessons .container .range-slider .range-input input {
+    -webkit-appearance: none;
+    width: 175px;
+    height: 2px;
+    background: #b1b1b1;
+    border: none;
+    outline: none;
+  }
+  #lessons .container .range-slider .range-input input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 7px;
+    height: 25px;
+    background: #000;
+  }
+  #lessons .container .range-slider .range-input .value {
+    font-family: "Open sans";
+    color: #000;
+    text-align: center;
+    font-weight: 600;
+    line-height: 40px;
+    height: 40px;
+    overflow: hidden;
+    margin-left: 10px;
+  }
+  #lessons .container .range-slider .range-input .value div {
+    transition: all 300ms ease-in-out;
+  }
+  #lessons .container .range-slider .free-lesson {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+  }
+  #lessons .container .range-slider input[type=checkbox] {
+    accent-color: rgb(0, 0, 0);
+  }
+  #lessons .container-wideo {
+    width: 100%;
+    height: auto;
+  }
+  #lessons .container-wideo .Container {
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    border-left: 1px solid #ffffff;
+    border-top: 2px solid #eaeaea;
+  }
+  #lessons .container-wideo .Container .head-text {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    align-items: baseline;
+    padding: 0px 0px 30px 0px;
+  }
+  #lessons .container-wideo .Container .head-text h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+  }
+  #lessons .container-wideo .Container .head-text a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #000000;
+  }
+  #lessons .container-wideo .Container .container {
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0%;
+  }
+  #lessons .container-wideo .Container .container div {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
+  }
+  #lessons .container-wideo .Container .container div div {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 270px;
+  }
+  #lessons .container-wideo .Container .container div div img {
+    width: 100%;
+    height: 180px;
+    filter: brightness(55%);
+    border-radius: 10px;
+  }
+  #lessons .container-wideo .Container .container div div .fa-solid {
+    display: flex;
+    font-size: 37px;
+    color: #ffffff;
+    position: absolute;
+    left: 39%;
+    top: 29%;
+    bottom: 0%;
+    right: 0%;
+  }
+  #lessons .container-wideo .Container .container div div .title-box {
+    width: auto;
+    height: auto;
+    margin-top: 13px;
+  }
+  #lessons .container-wideo .Container .container div div .title-box h3 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  #lessons .container-wideo .Container .container div div .title-box span {
+    display: flex;
+  }
+  #lessons .container-wideo .Container .container div div .title-box span img {
+    width: 11px;
+    height: 15px;
+  }
+  #lessons .container-wideo .Container .container div div .title-box span h6 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 8px;
+    line-height: 19px;
+    color: #000000;
+  }
+}
+.swiper {
+  position: initial !important;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  background-color: rgb(255, 255, 255);
+  width: 11px;
+  height: 11px;
+}/*# sourceMappingURL=program.css.map */

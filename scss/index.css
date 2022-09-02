@@ -247,6 +247,14 @@ footer .container .second button {
   height: 40px;
   background-color: #282828;
 }
+footer .container .second button:hover {
+  transition: 0.5s;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+footer .container .second button:hover a {
+  color: #000000;
+}
 footer .container .second button a {
   font-family: "Open Sans";
   font-style: normal;
@@ -539,7 +547,7 @@ button {
 }
 
 #FirstSection {
-  background-image: url("assest/image/firsthead.jpg");
+  background-image: url("/assest/image/firsthead.jpg");
   width: 100%;
   height: 100vh;
   background-size: cover;
