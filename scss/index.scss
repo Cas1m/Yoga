@@ -1,1382 +1,535 @@
 @import '../assest/style/app';
 
-#FirstSection {
-    background-image: url("/assest/image/firsthead.jpg");
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    object-fit: cover;
 
-    .container {
-        position: absolute;
-        left: 7%;
-        top: 7%;
-        right: 0;
-        bottom: 0;
-        width: 40%;
+#First {
+   width: 100%;
+   height: auto;
 
-        h2 {
-            font-family: sans-serif;
-            font-style: normal;
-            font-weight: 700;
-            font-size: 40px;
-            margin-bottom: 20px;
-            line-height: 49px;
-            color: #595959;
-        }
+   .box-img-boxes {
+      width: 100%;
+      height: 630px;
+      background-image: url(https://www.karaelmas.com.tr/class/INNOVAEditor/assets/hizmetler/bah%C3%A7e-3.jpg);
+      object-fit: cover;
+      background-repeat: no-repeat;
+      filter: brightness(75%);
+      padding: 15px 140px;
 
-        button {
-            width: 190px;
-            height: 40px;
-            background-color: #A04C97;
-            border-radius: 5px;
+      .header {
+         width: 100%;
+         height: 130px;
+         background-color: transparent;
 
-            a {
-                font-family: sans-serif;
-                font-style: normal;
-
-                font-size: 14px;
-                line-height: 19px;
-
-                color: #ffffff;
-            }
-        }
-    }
-}
-
-#SecondSection {
-    width: 100%;
-    height: auto;
-
-    .container {
-        padding: 120px 450px;
-
-        .text {
+         .header-head-box {
+            display: flex;
+            justify-content: space-between;
             width: 100%;
             height: auto;
 
-            h2 {
-                font-family: 'open sans';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 36px;
-                line-height: 49px;
-                text-align: center;
-                color: #000000;
+            .first-box {
+               width: 20%;
+               display: flex;
+
+               img {
+                  width: 17px;
+                  height: 18px;
+               }
+
+               span {
+                  margin-left: 10px;
+                  font-size: 15px;
+                  color: #fff;
+                  font-family: sans-serif;
+               }
             }
-        }
 
-    }
+            .second-box {
+               width: 10%;
+               display: flex;
+               justify-content: space-around;
 
-    .descriptionIcons {
-        display: flex;
-        justify-content: space-around;
-        padding: 0px 150px;
+               img {
+                  width: 15px;
+                  height: 16px;
+               }
+            }
+         }
 
-        div {
-            width: 18%;
+         .push-line {
+            width: 100%;
+            height: 1px;
+            background-color: #C7C7C7;
+            margin-top: 15px;
+         }
+
+         .header-footer-box {
+            width: 100%;
             height: auto;
-            align-items: center;
-            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
 
-            img {
-                margin-bottom: 20px;
+            .first-box {
+               width: 15%;
+               display: flex;
+
+               img {
+                  width: 125px;
+                  height: 50px;
+               }
+            }
+
+            .second-box {
+               width: 75%;
+               height: auto;
+               display: flex;
+               justify-content: space-around;
+
+               ul {
+                  display: flex;
+                  justify-content: space-around;
+                  width: 100%;
+                  height: auto;
+
+                  li {
+                     cursor: pointer;
+                     margin-top: 10px;
+                     font-size: 17px;
+                     color: #fff;
+                     font-style: normal;
+                     font-family: "open sans";
+                  }
+               }
+            }
+         }
+
+      }
+
+      .first-section-box {
+         width: 100%;
+         height: auto;
+         display: flex;
+         justify-content: space-around;
+         margin-top: 27%;
+
+         .first {
+            background-image: url(/assest/image/first-sec-first-boxs.png);
+            background-repeat: no-repeat;
+            width: 350px;
+            height: 250px;
+            background-color: #1A5221;
+            display: block;
+            padding: 40px 40px;
+
+            h2 {
+               font-size: 32px;
+               font-style: normal;
+               font-family: sans-serif;
+               color: #fff;
             }
 
             h4 {
-                font-family: 'Open Sans';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 16px;
-                line-height: 22px;
-                margin-bottom: 10px;
-                text-align: center;
-                color: #000000;
+               margin-top: 20px;
+               font-size: 13px;
+               font-style: oblique;
+               font-family: sans-serif;
+               color: #fff;
+
+            }
+         }
+
+         .second {
+            background-image: url(/assest/image/first-sec-second-box.png);
+            background-repeat: no-repeat;
+            width: 350px;
+            height: 250px;
+            background-color: #a2c916;
+            padding: 40px 40px;
+
+            h2 {
+               font-size: 32px;
+               font-style: normal;
+               font-family: sans-serif;
+               color: #fff;
             }
 
-            p {
-                font-family: 'Open Sans';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 13px;
-                line-height: 18px;
-                margin-bottom: 10px;
-                text-align: center;
-                color: #787878;
+            h4 {
+               margin-top: 20px;
+               font-size: 13px;
+               font-style: oblique;
+               font-family: sans-serif;
+               color: #fff;
+
             }
-        }
-    }
+
+            img {
+               margin-top: 60px;
+               width: 200px;
+               height: 140px;
+            }
+         }
+
+         .third {
+            background-image: url(/assest/image/first-sec-first-boxs.png);
+            background-repeat: no-repeat;
+            width: 350px;
+            height: 250px;
+            background-color: #ffdd00;
+            padding: 40px 40px;
+
+            h2 {
+               font-size: 32px;
+               font-style: normal;
+               font-family: sans-serif;
+               color: #fff;
+            }
+
+            h4 {
+               margin-top: 20px;
+               font-size: 13px;
+               font-style: oblique;
+               font-family: sans-serif;
+               color: #fff;
+
+            }
+
+            img {
+               width: 250px;
+               height: 200px;
+            }
+         }
+      }
+
+   }
 
 }
 
-#ThirdSection {
-    width: 100%;
-    height: auto;
-
-    .container {
-        display: flex;
-        justify-content: space-between;
-        padding: 100px 100px;
-
-        .text {
-            padding: 12% 0% 12% 0%;
-            width: 45%;
-            height: 500px;
-
-            h2 {
-                font-family: 'Open Sans';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 36px;
-                line-height: 49px;
-                margin-bottom: 15px;
-                color: #000000;
-            }
-
-            p {
-                font-family: 'Open Sans';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 25px;
-                margin-bottom: 30px;
-                color: #424242;
-            }
-
-            button {
-                width: 190px;
-                height: 44px;
-                background: #595959;
-                border-radius: 3px;
-
-                a {
-                    font-family: 'Open Sans';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 14px;
-                    line-height: 20px;
-                    color: #FFFFFF;
-                }
-            }
-        }
-
-        .img {
-            width: 46.6%;
-            height: 540px;
-        }
-    }
-}
-
-#FourthSection {
-    .container {
-        padding: 0px 450px;
-
-        .text {
-            width: 100%;
-            height: auto;
-
-            h2 {
-                font-family: 'open sans';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 36px;
-                line-height: 49px;
-                text-align: center;
-                color: #000000;
-            }
-
-        }
-
-    }
-
-    .Container {
-        width: 100%;
-        height: auto;
-        padding: 30px 150px;
-
-        p {
-            width: 90%;
-            margin-left: 50px;
-            margin-bottom: 100px;
-            font-family: 'Open Sans';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 17px;
-            line-height: 23px;
-            text-align: center;
-            color: #424242;
-        }
-
-        .swiper-container {
-            position: relative;
-
-            .swiper {
-                width: 80%;
-                height: 100%;
-
-            }
-
-            .swiper-slide {
-                height: 300px;
-                text-align: center;
-                font-size: 18px;
-
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: -webkit-flex;
-                display: flex;
-                -webkit-box-pack: center;
-                -ms-flex-pack: center;
-                -webkit-justify-content: center;
-                justify-content: center;
-                -webkit-box-align: center;
-                -ms-flex-align: center;
-                -webkit-align-items: center;
-                align-items: center;
-
-                div {
-                    img {
-                        width: 220px;
-                        height: 270px;
-                        margin-bottom: 8px;
-                    }
-
-                    h4 {
-                        font-family: 'Edu NSW ACT Foundation', cursive;
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 17px;
-                        line-height: 22px;
-                        text-align: center;
-                        color: #000000;
-                    }
-                }
-            }
-
-            .swiper-slide img {
-                display: block;
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-        }
-
-    }
-}
-
-#FiftySection {
-    width: 100%;
-    height: auto;
-
-    .container {
-        display: flex;
-        justify-content: space-between;
-        padding: 100px 100px;
-
-        .text {
-            padding: 12% 0% 12% 0%;
-            width: 45%;
-            height: 500px;
-
-            h2 {
-                width: 75%;
-                font-family: 'Open Sans';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 36px;
-                line-height: 49px;
-                margin-bottom: 15px;
-                color: #000000;
-            }
-
-            p {
-                font-family: 'Open Sans';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 25px;
-                margin-bottom: 30px;
-                color: #424242;
-            }
-
-            button {
-                width: 190px;
-                height: 48px;
-                background: #282828;
-                border-radius: 3px;
-                transform: 0.5s;
-
-                a {
-                    font-family: 'Open Sans';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 14px;
-                    line-height: 20px;
-                    color: #FFFFFF;
-                }
-
-            }
-        }
-
-        .img {
-            width: 46.6%;
-            height: 540px;
-        }
-    }
-}
-
-@media(max-width:1024px) {
-    #FirstSection {
-        background-image: url("/assest/image/firsthead.jpg");
-        width: 100%;
-        height: 100vh;
-        background-size: cover;
-        background-position: center;
-        position: relative;
-        object-fit: cover;
-
-        .container {
-            position: absolute;
-            left: 0%;
-            top: 14%;
-            right: 0;
-            bottom: 0;
-            width: 60%;
-
-            h2 {
-                font-family: sans-serif;
-                font-style: normal;
-                font-weight: 700;
-                font-size: 36px;
-                margin-bottom: 20px;
-                line-height: 45px;
-                color: #595959;
-            }
-
-            button {
-                width: 210px;
-                height: 50px;
-                background-color: #A04C97;
-                border-radius: 5px;
-
-                a {
-                    font-family: sans-serif;
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 16px;
-                    line-height: 19px;
-
-                    color: #ffffff;
-                }
-            }
-        }
-    }
-
-    #SecondSection {
-        width: 100%;
-        height: auto;
-
-
-        .container {
-            padding: 70px 60px;
-
-            .text {
-                width: 100%;
-                height: auto;
-
-                h2 {
-                    font-family: 'open sans';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 33px;
-                    line-height: 40px;
-                    text-align: center;
-                    color: #000000;
-                }
-            }
-
-        }
-
-        .descriptionIcons {
-            width: 100%;
-            height: auto;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 0px 40px;
-
-            div {
-                width: 40%;
-                height: auto;
-                align-items: center;
-                text-align: center;
-                margin-bottom: 50px;
-
-                img {
-
-                    margin-bottom: 0px;
-                }
-
-                h4 {
-                    font-family: 'Open Sans';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 14px;
-                    line-height: 20px;
-                    margin-bottom: 10px;
-                    text-align: center;
-                    color: #000000;
-                }
-
-                p {
-                    font-family: 'Open Sans';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 12px;
-                    line-height: 16px;
-                    margin-bottom: 10px;
-                    text-align: center;
-                    color: #787878;
-                }
-            }
-        }
-
-    }
-
-    #ThirdSection {
-        width: 100%;
-        height: auto;
-
-        .container {
-            display: block;
-            justify-content: space-between;
-            padding: 0px 120px;
-
-            .text {
-                padding: 12% 0% 3.5% 0%;
-                width: 80%;
-                height: auto;
-
-                h2 {
-                    font-family: 'Open Sans';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 33px;
-                    line-height: 40px;
-                    margin-bottom: 15px;
-                    color: #000000;
-                }
-
-                p {
-                    font-family: 'Open Sans';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 18px;
-                    line-height: 25px;
-                    margin-bottom: 20px;
-                    color: #424242;
-                }
-
-                button {
-                    width: 200px;
-                    height: 47px;
-                    background: #595959;
-                    border-radius: 3px;
-
-                    a {
-                        font-family: 'Open Sans';
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 15px;
-                        line-height: 20px;
-                        color: #FFFFFF;
-                    }
-                }
-            }
-
-            .img {
-                width: auto;
-                height: auto;
-
-                img {
-                    width: 80%;
-                    height: 400px;
-                }
-            }
-        }
-    }
-
-    #FourthSection {
-        .container {
-            padding: 70px 60px 0px 60px;
-
-            .text {
-                width: 100%;
-                height: auto;
-
-                h2 {
-                    font-family: 'open sans';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 33px;
-                    line-height: 40px;
-                    text-align: center;
-                    color: #000000;
-                }
-
-            }
-
-        }
-
-        .Container {
-            width: 100%;
-            height: auto;
-            padding: 20px 60px 0px 40px;
-
-            p {
-                width: 90%;
-                margin-left: 50px;
-                margin-bottom: 10px;
-                font-family: 'Open Sans';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 17px;
-                line-height: 23px;
-                text-align: center;
-                color: #424242;
-            }
-
-            .swiper-container {
-                position: relative;
-
-                .swiper {
-                    width: 90%;
-                    height: 100%;
-
-                }
-
-                .swiper-slide {
-                    height: 320px;
-                    text-align: center;
-                    font-size: 18px;
-
-                    display: -webkit-box;
-                    display: -ms-flexbox;
-                    display: -webkit-flex;
-                    display: flex;
-                    -webkit-box-pack: center;
-                    -ms-flex-pack: center;
-                    -webkit-justify-content: center;
-                    justify-content: center;
-                    -webkit-box-align: center;
-                    -ms-flex-align: center;
-                    -webkit-align-items: center;
-                    align-items: center;
-
-                    div {
-                        img {
-                            border-radius: 5px;
-                            width: 200px;
-                            height: 220px;
-                            margin-bottom: 8px;
-                        }
-
-                        h4 {
-                            font-family: 'Edu NSW ACT Foundation', cursive;
-                            font-style: normal;
-                            font-weight: 600;
-                            font-size: 16px;
-                            line-height: 20px;
-                            text-align: center;
-                            color: #000000;
-                        }
-                    }
-                }
-
-                .swiper-slide img {
-                    display: block;
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                }
-            }
-
-        }
-    }
-
-    #FiftySection {
-        width: 100%;
-        height: auto;
-
-        .container {
-            display: block;
-            justify-content: space-between;
+#Second {
+   width: 100%;
+   height: auto;
+
+   .container {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      padding: 170px 0px 0px;
+
+      .img-box {
+         width: auto;
+         height: auto;
+
+         img {
+            width: 535px;
+            height: 800px;
+         }
+      }
+
+      .paragraph-box {
+         padding: 50px 0px;
+         width: 100%;
+         height: auto;
+         display: block;
+         justify-content: center;
+         text-align: center;
+
+         div {
             padding: 50px 120px;
-
-            .text {
-                padding: 2% 0% 3.5% 0%;
-                width: 80%;
-                height: auto;
-
-                h2 {
-                    font-family: 'Open Sans';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 33px;
-                    line-height: 40px;
-                    margin-bottom: 15px;
-                    color: #000000;
-                }
-
-                p {
-                    font-family: 'Open Sans';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 18px;
-                    line-height: 25px;
-                    margin-bottom: 20px;
-                    color: #424242;
-                }
-
-                button {
-                    width: 200px;
-                    height: 47px;
-                    background: #595959;
-                    border-radius: 3px;
-
-                    a {
-                        font-family: 'Open Sans';
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 15px;
-                        line-height: 20px;
-                        color: #FFFFFF;
-                    }
-                }
-            }
-
-            .img {
-                width: auto;
-                height: auto;
-
-                img {
-                    width: 80%;
-                    height: 400px;
-                }
-            }
-        }
-    }
-}
-
-@media(max-width:768px) {
-    #FirstSection {
-        background-image: url("/assest/image/firsthead.jpg");
-        width: 100%;
-        height: 100vh;
-        background-size: cover;
-        background-position: center;
-        position: relative;
-        object-fit: cover;
-
-        .container {
-            position: absolute;
-            left: 0%;
-            top: 8%;
-            right: 0;
-            bottom: 0;
-            width: 70%;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: auto;
+            background-color: #f1f0f0;
 
             h2 {
-                font-family: sans-serif;
-                font-style: normal;
-                font-weight: 700;
-                font-size: 32px;
-                margin-bottom: 20px;
-                line-height: 35px;
-                color: #595959;
+               font-family: sans-serif, "open"sans;
+               font-size: 36px;
+               font-style: normal;
+               color: #3E3737;
+               font-weight: 500;
             }
 
-            button {
-                width: 190px;
-                height: 40px;
-                background-color: #A04C97;
-                border-radius: 5px;
-
-                a {
-                    font-family: sans-serif;
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 14px;
-                    line-height: 19px;
-
-                    color: #ffffff;
-                }
+            .first-img {
+               margin-top: 10px;
+               width: 310px;
+               height: 45px;
             }
-        }
-    }
-
-    #SecondSection {
-        width: 100%;
-        height: auto;
-
-
-        .container {
-            padding: 70px 60px;
-
-            .text {
-                width: 100%;
-                height: auto;
-
-                h2 {
-                    font-family: 'open sans';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 33px;
-                    line-height: 40px;
-                    text-align: center;
-                    color: #000000;
-                }
-            }
-
-        }
-
-        .descriptionIcons {
-            width: 100%;
-            height: auto;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 0px 40px;
-
-            div {
-                width: 40%;
-                height: auto;
-                align-items: center;
-                text-align: center;
-                margin-bottom: 50px;
-
-                img {
-
-                    margin-bottom: 0px;
-                }
-
-                h4 {
-                    font-family: 'Open Sans';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 14px;
-                    line-height: 20px;
-                    margin-bottom: 10px;
-                    text-align: center;
-                    color: #000000;
-                }
-
-                p {
-                    font-family: 'Open Sans';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 12px;
-                    line-height: 16px;
-                    margin-bottom: 10px;
-                    text-align: center;
-                    color: #787878;
-                }
-            }
-        }
-
-    }
-
-    #ThirdSection {
-        width: 100%;
-        height: auto;
-
-        .container {
-            display: block;
-            justify-content: space-between;
-            padding: 0px 40px;
-
-            .text {
-                padding: 12% 0% 3.5% 0%;
-                width: 100%;
-                height: auto;
-
-                h2 {
-                    font-family: 'Open Sans';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 33px;
-                    line-height: 40px;
-                    margin-bottom: 15px;
-                    color: #000000;
-                }
-
-                p {
-                    font-family: 'Open Sans';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 18px;
-                    line-height: 25px;
-                    margin-bottom: 20px;
-                    color: #424242;
-                }
-
-                button {
-                    width: 190px;
-                    height: 44px;
-                    background: #595959;
-                    border-radius: 3px;
-
-                    a {
-                        font-family: 'Open Sans';
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 14px;
-                        line-height: 20px;
-                        color: #FFFFFF;
-                    }
-                }
-            }
-
-            .img {
-                width: auto;
-                height: auto;
-
-                img {
-                    width: 100%;
-                    height: 400px;
-                }
-            }
-        }
-    }
-
-    #FourthSection {
-        .container {
-            padding: 70px 60px 0px 60px;
-
-            .text {
-                width: 100%;
-                height: auto;
-
-                h2 {
-                    font-family: 'open sans';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 33px;
-                    line-height: 40px;
-                    text-align: center;
-                    color: #000000;
-                }
-
-            }
-
-        }
-
-        .Container {
-            width: 100%;
-            height: auto;
-            padding: 20px 60px 0px 40px;
 
             p {
-                width: 90%;
-                margin-left: 50px;
-                margin-bottom: 10px;
-                font-family: 'Open Sans';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 17px;
-                line-height: 23px;
-                text-align: center;
-                color: #424242;
+               margin-top: 20px;
+               text-align: center;
+               font-size: 15px;
+               font-style: normal;
+               font-family: sans-serif;
+               color: #3E3737;
             }
 
-            .swiper-container {
-                position: relative;
-
-                .swiper {
-                    width: 90%;
-                    height: 100%;
-
-                }
-
-                .swiper-slide {
-                    height: 320px;
-                    text-align: center;
-                    font-size: 18px;
-
-                    display: -webkit-box;
-                    display: -ms-flexbox;
-                    display: -webkit-flex;
-                    display: flex;
-                    -webkit-box-pack: center;
-                    -ms-flex-pack: center;
-                    -webkit-justify-content: center;
-                    justify-content: center;
-                    -webkit-box-align: center;
-                    -ms-flex-align: center;
-                    -webkit-align-items: center;
-                    align-items: center;
-
-                    div {
-                        img {
-                            border-radius: 5px;
-                            width: 150px;
-                            height: 220px;
-                            margin-bottom: 8px;
-                        }
-
-                        h4 {
-                            font-family: 'Edu NSW ACT Foundation', cursive;
-                            font-style: normal;
-                            font-weight: 600;
-                            font-size: 16px;
-                            line-height: 20px;
-                            text-align: center;
-                            color: #000000;
-                        }
-                    }
-                }
-
-                .swiper-slide img {
-                    display: block;
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                }
+            h3 {
+               margin-top: 20px;
+               font-size: 20px;
+               font-family: sans-serif;
+               font-style: normal;
+               color: #3E3737;
             }
 
-        }
-    }
-
-    #FiftySection {
-        width: 100%;
-        height: auto;
-
-        .container {
-            display: block;
-            justify-content: space-between;
-            padding: 70px 60px;
-
-            .text {
-                padding: 2.5% 0% 5% 0%;
-                width: 100%;
-                height: auto;
-
-                h2 {
-                    width: 75%;
-                    font-family: 'Open Sans';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 36px;
-                    line-height: 49px;
-                    margin-bottom: 15px;
-                    color: #000000;
-                }
-
-                p {
-                    width: 75%;
-                    font-family: 'Open Sans';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 18px;
-                    line-height: 25px;
-                    margin-bottom: 30px;
-                    color: #424242;
-                }
-
-                button {
-                    width: 190px;
-                    height: 48px;
-                    background: #282828;
-                    border-radius: 3px;
-                    transform: 0.5s;
-
-                    a {
-                        font-family: 'Open Sans';
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 14px;
-                        line-height: 20px;
-                        color: #FFFFFF;
-                    }
-
-                }
+            .second-img {
+               object-fit: contain;
+               width: 40%;
+               height: 50px;
             }
-
-            .img {
-                width: auto;
-                height: auto;
-
-                img {
-                    width: 100%;
-                    height: 400px;
-                }
-            }
-        }
-    }
+         }
+      }
+   }
 }
 
-@media (max-width:480px) {
+#Third {
+   width: 100%;
+   height: auto;
 
-    #FirstSection {
-        background-image: url("/assest/image/firsthead.jpg");
-        width: 100%;
-        height: 100vh;
-        background-size: cover;
-        background-position: center;
-        position: relative;
-        object-fit: cover;
+   .container {
+      width: 100%;
+      height: auto;
+      display: block;
+      text-align: center;
+      align-items: center;
+      padding: 70px 100px;
 
-        .container {
-            position: absolute;
-            left: -15%;
-            top: 5%;
-            right: 0;
-            bottom: 0;
+      h2 {
+         font-size: 36px;
+         font-family: sans-serif;
+         font-style: normal;
+         color: #3E3737;
+      }
+
+      img {
+         margin-top: 20px;
+         width: 340px;
+         height: 50px;
+      }
+   }
+
+   .container-two {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-around;
+      padding: 0px 120px;
+
+      div {
+         display: block;
+         justify-content: flex-start;
+         width: 350px;
+         height: auto;
+
+         span {
+            font-size: 120px;
+            color: #918F8F;
+            font-family: sans-serif;
+         }
+
+         h3 {
+            font-size: 30px;
+            font-family: sans-serif;
+            font-style: normal;
+            color: #5F5C5C;
+         }
+
+         p {
+            margin-top: 15px;
+            font-size: 16px;
+            font-style: normal;
+            color: #7C7A7A;
+            font-family: sans-serif;
+            line-height: 30px;
+         }
+
+         img {
+            margin-top: 10px;
             width: 100%;
+            height: 400px;
+         }
 
-            h2 {
-                font-family: sans-serif;
-                font-style: normal;
-                font-weight: 700;
-                font-size: 1.75rem;
-                margin-bottom: 15px;
-                line-height: 49px;
-                color: #595959;
+      }
+   }
+}
+
+#Fourth {
+   width: 100%;
+   height: auto;
+
+   .container {
+      width: 100%;
+      height: auto;
+      display: block;
+      justify-content: space-between;
+      text-align: center;
+      padding: 120px 100px 0px;
+
+      h2 {
+         font-size: 36px;
+         font-family: sans-serif;
+         font-style: normal;
+         color: #2A332B;
+      }
+
+      img {
+         margin-top: 20px;
+         width: 340px;
+         height: 50px;
+      }
+
+      ul {
+         text-align: center;
+         width: 100%;
+         height: auto;
+         display: flex;
+         justify-content: space-evenly;
+         padding: 20px 300px;
+
+         li {
+            cursor: pointer;
+            font-size: 17px;
+            font-style: normal;
+            font-family: sans-serif;
+            color: #2A332B;
+            transition: 0.3s;
+
+            &:hover {
+               transform: 0.3s;
+               color: #91B40D;
             }
+         }
+      }
+   }
 
-            button {
-                width: 170px;
-                height: 40px;
-                background-color: #A04C97;
-                border-radius: 5px;
+   .container-two {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 50px;
 
-                a {
-                    font-family: sans-serif;
-                    font-style: normal;
+      div {
+         border-radius: 10px;
+         width: 230px;
+         height: 230px;
+         display: block;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
-                    font-size: 12px;
-                    line-height: 19px;
+         img {
+            width: 150px;
+            height: 150px;
+         }
 
-                    color: #ffffff;
-                }
-            }
-        }
-    }
-
-    #SecondSection {
-        width: 100%;
-        height: auto;
-
-        .container {
-            padding: 10% 4%;
-
-            .text {
-                width: 100%;
-                height: auto;
-
-                h2 {
-                    font-family: 'open sans';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 24px;
-                    line-height: 39px;
-                    text-align: center;
-                    color: #000000;
-                }
-            }
-
-        }
-
-        .descriptionIcons {
-            display: block;
-            justify-content: space-around;
-            padding: 0px 14%;
-
-            div {
-                width: 100%;
-                height: auto;
-                align-items: center;
-                text-align: center;
-
-                img {
-                    margin-bottom: 20px;
-                }
-
-                h4 {
-                    font-family: 'Open Sans';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 16px;
-                    line-height: 22px;
-                    margin-bottom: 10px;
-                    text-align: center;
-                    color: #000000;
-                }
-
-                p {
-                    font-family: 'Open Sans';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 13px;
-                    line-height: 18px;
-                    margin-bottom: 50px;
-                    text-align: center;
-                    color: #787878;
-                }
-            }
-        }
-
-    }
-
-    #ThirdSection {
-        width: 100%;
-        height: auto;
-
-        .container {
-            display: block;
-            justify-content: space-around;
-            padding: 40px 40px;
-
-            .text {
-                padding: 4% 0% 4% 0%;
-                width: 100%;
-                height: 240px;
-
-                h2 {
-                    font-family: 'Open Sans';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 24px;
-                    line-height: 40px;
-                    margin-bottom: 10px;
-                    color: #000000;
-                }
-
-                p {
-                    font-family: 'Open Sans';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 20px;
-                    margin-bottom: 20px;
-                    color: #424242;
-                }
-
-                button {
-                    width: 160px;
-                    height: 44px;
-                    background: #595959;
-                    border-radius: 3px;
-
-                    a {
-                        font-family: 'Open Sans';
-                        font-style: normal;
-                        font-weight: 500;
-                        font-size: 12px;
-                        line-height: 20px;
-                        color: #FFFFFF;
-                    }
-                }
-            }
-
-            .img {
-                width: 200px;
-                height: 320px;
-
-                img {
-                    width: 400px;
-                    height: 320px;
-                }
-            }
-        }
-    }
-
-    #FourthSection {
-        .container {
-            padding: 40px 40px;
-
-            .text {
-                width: 100%;
-                height: auto;
-
-                h2 {
-                    font-family: 'open sans';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 24px;
-                    line-height: 39px;
-                    text-align: center;
-                    color: #000000;
-                }
-
-            }
-
-        }
-
-        .Container {
+         button {
             width: 100%;
-            height: auto;
-            padding: 0px 10px;
-
-            p {
-                width: 100%;
-                margin-left: 0px;
-                margin-bottom: 40px;
-                font-family: 'Open Sans';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 12px;
-                line-height: 20px;
-                text-align: center;
-                color: #424242;
-            }
-
-            .swiper-container {
-                position: relative;
-
-                .swiper-button-prev,
-                .swiper-rtl .swiper-button-next {
-                    left: -1% !important;
-                }
-
-                .swiper-button-next,
-                .swiper-rtl .swiper-button-prev {
-                    right: -1% !important;
-                }
-
-                .swiper {
-                    width: 90%;
-                    height: 100%;
-                }
-
-                .swiper-slide {
-                    height: 200px;
-                    text-align: center;
-                    font-size: 14px;
-
-                    display: -webkit-box;
-                    display: -ms-flexbox;
-                    display: -webkit-flex;
-                    display: flex;
-                    -webkit-box-pack: center;
-                    -ms-flex-pack: center;
-                    -webkit-justify-content: center;
-                    justify-content: center;
-                    -webkit-box-align: center;
-                    -ms-flex-align: center;
-                    -webkit-align-items: center;
-                    align-items: center;
-
-                    div {
-                        img {
-                            width: 115px;
-                            height: 190px;
-                            margin-bottom: 8px;
-                        }
-
-                        h4 {
-                            font-family: 'Edu NSW ACT Foundation', cursive;
-                            font-style: normal;
-                            font-weight: 600;
-                            font-size: 15px;
-                            line-height: 22px;
-                            text-align: center;
-                            color: #000000;
-                        }
-                    }
-                }
-
-                .swiper-slide img {
-                    display: block;
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                }
-            }
-
-        }
-    }
-
-    #FiftySection {
-        width: 100%;
-        height: auto;
-
-        .container {
+            height: 74px;
             display: block;
-            justify-content: space-around;
-            padding: 40px 40px;
-
-            .text {
-                padding: 1% 0% 1% 0%;
-                width: 100%;
-                height: 220px;
-
-                h2 {
-                    width: 100%;
-                    font-family: 'Open Sans';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 26px;
-                    line-height: 39px;
-                    margin-bottom: 15px;
-                    color: #000000;
-                }
-
-                p {
-                    font-family: 'Open Sans';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 14px;
-                    line-height: 25px;
-                    margin-bottom: 25px;
-                    color: #424242;
-                }
-
-                button {
-                    width: 160px;
-                    height: 48px;
-                    background: #282828;
-                    border-radius: 5px;
-                    transform: 0.5s;
-
-                    a {
-                        font-family: 'Open Sans';
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 12px;
-                        line-height: 20px;
-                        color: #FFFFFF;
-                    }
-
-                }
-            }
-
-            .img {
-                width: auto;
-                height: 320px;
-
-                img {
-                    width: 100%;
-                    height: 300px;
-                }
-            }
-        }
-    }
-
+            text-align: center;
+            color: #91B40D;
+            font-size: 22px;
+            font-style: normal;
+            font-family: sans-serif;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+         }
+      }
+   }
 }
 
+#Fifty {
+   width: 100%;
+   height: auto;
 
-// common
+   .container {
+      width: 100%;
+      height: auto;
+      display: block;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      padding: 50px;
 
-.swiper {
-    position: initial !important;
-}
+      h2 {
+         font-size: 36px;
+         font-style: normal;
+         font-family: sans-serif;
+         color: #3E3737;
+      }
 
-.swiper-button-next:after,
-.swiper-button-prev:after {
-    font-size: 26px !important;
-    color: #000000;
+      img {
+         margin-top: 20px;
+         width: 320px;
+         height: 40px;
+      }
+   }
 
+   .container-two {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-around;
+      padding: 0px 130px;
+
+      div {
+         width: 370px;
+         height: 500px;
+         display: block;
+         text-align: start;
+         align-items: flex-start;
+         img{
+            width: 370px;
+            height: 250px;
+         }
+         h3{
+            margin-top: 10px;
+            color: #2F2A2A;
+            font-size: 17px;
+            font-style: normal;
+            line-height: 40px;
+            font-family: sans-serif;
+         }
+         p{
+            margin-top: 10px;
+            font-size: 14px;
+            font-family: sans-serif;
+            font-style: normal;
+            line-height: 25px;
+            color: #7C7A7A;
+            
+         }
+      }
+      .second {
+         margin-top: 30px;
+         width: 370px;
+         height: 500px;
+         display: block;
+         text-align: start;
+         align-items: flex-start;
+         img{
+            width: 370px;
+            height: 250px;
+         }
+         h3{
+            margin-top: 10px;
+            color: #2F2A2A;
+            font-size: 17px;
+            font-style: normal;
+            line-height: 40px;
+            font-family: sans-serif;
+         }
+         p{
+            margin-top: 10px;
+            font-size: 14px;
+            font-family: sans-serif;
+            font-style: normal;
+            line-height: 25px;
+            color: #7C7A7A;
+            
+         }
+      }
+   }
 }
