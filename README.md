@@ -1,2 +1,0 @@
-# Zauur.com
- About page
